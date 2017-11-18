@@ -13,6 +13,6 @@ let ageIsValid = Number.isInteger()
 
 let randomNumber = Math.floor(Math.random() * 21);
 
-let randomInteger = randomNumber.floor
+let randomInteger = Math.floor(randomNumber)
 
 let randomUserID = 1000000000 + randomInteger
