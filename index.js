@@ -11,7 +11,7 @@ let newID = 1000000000 + oldID
 
 let ageIsValid = Number.isInteger()
 
-let randomNumber = 
+let randomNumber = Math.floor(Math.random() * 21);
 
 let randomInteger = randomNumber.floor
 
